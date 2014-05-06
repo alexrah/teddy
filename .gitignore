@@ -4,4 +4,5 @@ templates/siegeengine2/.bundle/
 templates/siegeengine2/sass/
 templates/siegeengine2/scss
 Gemfile
+Gemfile.lock
 Guardfile
