@@ -1,1 +1,149 @@
 /* sada */
+/* .item-101 { display: none !important; } */
+/* line 7, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.uomo-wide {
+  display: none;
+}
+
+/* line 9, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.top-bar {
+  background: #f7931e;
+}
+
+/* line 12, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.top-bar.expanded {
+  /* width: 15%; */
+  /* float: right; */
+}
+/* line 15, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.top-bar.expanded .title-area {
+  background: white;
+}
+/* line 16, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.top-bar.expanded ul.right li {
+  display: inline-block;
+  width: 25%;
+}
+
+/* line 22, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.top-bar-section ul {
+  background: none;
+}
+/* line 23, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.top-bar-section ul li > a {
+  background: #f7931e;
+}
+/* line 26, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.top-bar-section ul li.active > a {
+  background: #fbb03b;
+}
+/* line 29, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.top-bar-section li a:hover:not(.button) {
+  background: #fbb03b;
+}
+
+/* line 34, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.columns {
+  padding: 0px;
+}
+/* line 36, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.columns .sidebar {
+  margin-top: 48px;
+}
+
+/* line 39, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+#teddynethome_hype_container {
+  margin-left: 1.5%;
+}
+
+/* line 44, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+#footer {
+  color: #f7931e;
+}
+
+@media only screen and (max-width: 828px) {
+  /* line 46, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .item-101 {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 49, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .large-3 {
+    width: 20%;
+  }
+
+  /* line 50, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .large-9 {
+    width: 80%;
+  }
+
+  /* line 51, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .top-bar {
+    background: none;
+  }
+
+  /* line 53, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .top-bar-section ul li {
+    padding: 1px;
+  }
+  /* line 54, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .top-bar-section li a:not(.button) {
+    padding: 0 8px;
+  }
+
+  /* line 56, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .item-101 {
+    display: list-item;
+  }
+
+  /* line 57, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .top-bar .title-area {
+    float: none;
+  }
+
+  /* line 58, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .uomo-narrow {
+    display: none;
+  }
+
+  /* line 59, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .uomo-wide {
+    display: inline-block;
+  }
+
+  /* line 60, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .sidebar {
+    margin-top: 48px;
+  }
+}
+@media only screen and (min-width: 940px) {
+  /* .top-bar{ background: none; } */
+  /* line 65, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .top-bar-section {
+    margin-left: -23px;
+    /* ul li { padding: 1px; } */
+  }
+  /* line 67, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .top-bar-section li a:not(.button) {
+    background: #f7931e;
+    padding: 0 14px;
+  }
+
+  /* .sidebar { margin-top: 48px; } */
+  /* line 74, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  #teddynethome_hype_container {
+    margin-left: 100px;
+    width: 100%;
+  }
+
+  /* line 77, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .buffer {
+    min-height: 150px;
+  }
+
+  /* line 78, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .item-101 {
+    display: list-item;
+  }
+}
