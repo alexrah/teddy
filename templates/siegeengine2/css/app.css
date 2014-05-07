@@ -32,79 +32,81 @@
 /* line 23, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .top-bar-section ul li > a {
   background: #f7931e;
+  text-align: center;
+  padding: 12px 0px;
 }
-/* line 26, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 28, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .top-bar-section ul li.active > a {
   background: #fbb03b;
 }
-/* line 29, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 31, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .top-bar-section li a:hover:not(.button) {
   background: #fbb03b;
 }
 
-/* line 34, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 36, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .columns {
   padding: 0px;
 }
-/* line 36, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 38, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .columns .sidebar {
   margin-top: 48px;
 }
 
-/* line 39, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 41, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 #teddynethome_hype_container {
   margin-left: 1.5%;
 }
 
-/* line 43, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 45, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .art-lightbox-small {
   margin-right: 10px;
 }
 
-/* line 45, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 47, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .art-content-layout-wrapper {
   margin: 0 auto;
 }
 
-/* line 49, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 51, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 iframe {
   border: none;
 }
 
-/* line 51, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 53, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 #footer {
   color: #f7931e;
   margin-top: 50px;
 }
 
 @media only screen and (max-width: 828px) {
-  /* line 57, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 59, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .item-101 {
     display: none !important;
   }
 
-  /* line 58, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 60, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .restyling {
     margin-top: 50px;
   }
 }
 @media only screen and (max-width: 1000px) {
-  /* line 61, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 63, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .article-body {
     padding: 0 9%;
   }
 
-  /* line 62, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 64, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .chi-siamo {
     margin: 0 -3%;
   }
 
-  /* line 63, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 65, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .tablets {
     padding: 0 3%;
   }
 
-  /* line 64, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 66, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .siti-web {
     margin: 0 -3%;
   }
@@ -113,131 +115,131 @@ iframe {
   /* .grafica { padding: 0 2%; } */
 }
 @media only screen and (min-width: 768px) {
-  /* line 73, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 75, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .large-3 {
     width: 20%;
   }
 
-  /* line 74, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 76, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .large-9 {
     width: 80%;
   }
 
-  /* line 75, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 77, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .top-bar {
     background: none;
   }
 
-  /* line 77, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 79, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .top-bar-section ul li {
     padding: 1px;
   }
-  /* line 78, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 80, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .top-bar-section li a:not(.button) {
     padding: 0 8px;
   }
 
-  /* line 80, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 82, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .item-101 {
     display: list-item;
   }
 
-  /* line 81, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 83, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .top-bar .title-area {
     float: none;
   }
 
-  /* line 82, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 84, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .uomo-narrow {
     display: none;
   }
 
-  /* line 83, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 85, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .uomo-wide {
     display: inline-block;
   }
 
-  /* line 84, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 86, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .sidebar {
     margin-top: 48px;
   }
 
-  /* line 85, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 87, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .art-content-layout-wrapper {
     /* margin-right: 15px; margin-left: 60px; */
     margin-right: 0px;
     margin-left: 42px;
   }
 
-  /* line 89, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 91, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .art-content-layout-wrapper-servizi {
     margin-right: 15px;
     margin-left: 60px;
   }
 
-  /* line 93, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 95, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .buffer {
     min-height: 150px;
   }
 
-  /* line 94, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 96, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .first {
     margin-top: 100px;
   }
 
-  /* line 95, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 97, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .first2 {
     margin-top: 200px;
   }
 
-  /* line 96, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 98, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .split {
     margin-right: 26px;
     margin-left: 68px;
   }
 
-  /* line 97, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 99, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .split2 {
     margin-right: 15px;
     margin-left: 60px;
   }
 
-  /* line 98, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 100, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   #footer {
     margin-top: 0px;
   }
 
-  /* line 99, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 101, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   #dispositivi {
     padding-right: 20px;
   }
 
-  /* line 100, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 102, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   #software {
     text-align: right;
   }
 }
 @media only screen and (min-width: 940px) {
   /* .top-bar{ background: none; } */
-  /* line 105, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 107, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .top-bar-section {
     margin-left: -23px;
     /* ul li { padding: 1px; } */
   }
-  /* line 107, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 109, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .top-bar-section li a:not(.button) {
     background: #f7931e;
     padding: 0 14px;
   }
 
   /* .sidebar { margin-top: 48px; } */
-  /* line 114, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 116, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   #teddynethome_hype_container {
     margin-left: 100px;
     width: 100%;
   }
 
-  /* line 117, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 119, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .item-101 {
     display: list-item;
   }
